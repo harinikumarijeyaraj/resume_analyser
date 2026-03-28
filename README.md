@@ -43,18 +43,21 @@ Getting Started
 
 1.Clone the repository:
 
-git clone 
-Install dependencies:
+git clone https://github.com/harinikumarijeyaraj/resume_analyser
 
-pip install -r requirements.txt
-Open the notebooks:
+2.Open the notebooks:
 
 jupyter notebook linear_model.ipynb
 jupyter notebook logistic_model.ipynb
-Run all cells in each notebook to reproduce the analysis, models, and charts.
+
+3.Run all cells in each notebook to reproduce the analysis, models, and charts.
+
 Usage
-Update resumes.csv with your resume data.
-Run each notebook to train and evaluate the corresponding model.
-Visualizations in the notebooks show model accuracy and comparisons.
+
+1.Update resumes.csv with your resume data.
+2.Run each notebook to train and evaluate the corresponding model.
+3.Visualizations in the notebooks show model accuracy and comparisons.
+
 Conclusion
+
 This project demonstrates applying machine learning to automate resume screening. Comparison between Linear Regression and Logistic Regression shows logistic regression performs slightly better for binary skill prediction. The project can be extended to multi-skill detection, larger datasets, and advanced NLP techniques for improved accuracy.
